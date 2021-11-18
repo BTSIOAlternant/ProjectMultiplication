@@ -2,13 +2,19 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { TableMultiplicationComponent } from './components/table-multiplication/table-multiplication.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { TablesMultiplicationComponent } from './components/tables-multiplication/tables-multiplication.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TableMultiplicationComponent,
+    TablesMultiplicationComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
