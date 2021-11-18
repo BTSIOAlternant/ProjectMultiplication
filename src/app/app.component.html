@@ -31,9 +31,6 @@
           <div class="group">
             <form [formGroup]="nbForm" (ngSubmit)="forMultiplicationTAB(nbChoose)">
               <input class="input is-success" formControlName="nbChoose" type="number" placeholder="Entrez un nombre">
-              <div *ngIf="badNumberforTab" class="help-block">
-                <div *ngIf="badNumberforTab">Un nombre est demandé !</div>
-              </div>
               <div class="field is-grouped">
               <div class="control">
                 <button class="button">Soumettre</button>
@@ -44,7 +41,7 @@
               <p class="subtitle"> Ou via un choix sous forme de tableau : </p>
               <table class="nombre">
               <td>
-                <input *ngFor="let nbChoose of nbBouton" id='{{nbChoose}}' type='button'
+                <input *ngFor="let nbChoose of nbBouton" type='button'
                   (click)='forMultiplicationTAB(nbChoose) ' value='{{nbChoose}}' />
               </td>
             </table>

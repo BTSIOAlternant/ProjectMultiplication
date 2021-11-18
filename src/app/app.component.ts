@@ -13,7 +13,6 @@ export class AppComponent {
   isSubmitted = false;
   isSubmitted2 = false;
   badNumber = false;
-  badNumberforTab = false;
   nbBouton: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
   ngOnInit(): void {
@@ -39,7 +38,6 @@ export class AppComponent {
   }
 
   forMultiplicationTAB(nbChoose: number) {
-    console.log(this.nbForm.value.nbChoose)
       if(this.nbForm.value.nbChoose != null) {
           this.isSubmitted2 = true;
           this.nbChoose = this.nbForm.value.nbChoose;
