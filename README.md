@@ -264,4 +264,6 @@ Ce projet ma permis de bien comprendre le framework Angular, j'ai pu découvrir 
 J'ai appris seulement le mercredi 17 novembre (puisque je suis en alternance) que mes camarades avaient effectué ce TD je tenais à le faire tout d'abord pour éviter d'être trop en retard sur eux, mais c'était aussi intérresant à effectuer.
 <br>
 Je ne sais pas si j'ai bien respecté les consignes données puisque je n'ai pas pu demander d'aide où des explications à par a Google :), je pense que j'aurais pu améliorer mon README et je n'ai pas pu réaliser comme demandé les diagrammes ULM (je n'ai pas du tout compris ce qu'il fallait faire j'ai donc juste lu https://blog.anoff.io/2018-07-31-diagrams-with-plantuml/ mais je n'ai compris comment l'utiliser sur mon projet)
+<br>
+Il manque aussi de design CSS mais je me sentais pas de la faire, j'ai juste éffectuer quelque chose de fonctionnelle.
 
